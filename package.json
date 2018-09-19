@@ -15,7 +15,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "styles": "node-sass assets/sass/main.scss assets/css/main.css --source-map true --output-style compressed",
-    "scripts": "uglifyjs assets/js/jquery.min.js assets/js/jquery.poptrox.min.js assets/js/browser.min.js assets/js/breakpoints.min.js assets/js/util.js assets/js/main.js -o assets/js/app.min.js",
+    "scripts": "uglifyjs assets/js/jquery.poptrox.min.js assets/js/browser.min.js assets/js/breakpoints.min.js assets/js/util.js assets/js/main.js -o assets/js/app.min.js",
     "build": "npm run styles && npm run scripts",
     "start": "npm run build && opn http://localhost:8080 && http-server"
   }
